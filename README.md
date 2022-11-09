@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## About Application
+
+1. JS file loaded by browser
+2. App component gets created
+3. We call geolocation service
+4. App returns JSX, gets rendered to page as HTML
+5. We get result of geoloaction
+6. Tell the component to rerender itself with this new information
